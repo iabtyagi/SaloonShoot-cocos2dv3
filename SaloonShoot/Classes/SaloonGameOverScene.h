@@ -1,0 +1,17 @@
+//
+//  SaloonGameOverScene.h
+//  SaloonShoot
+//
+//  Created by Abhinav Tyagi on 22/02/14.
+//  Copyright (c) 2014 Abhinav Tyagi. All rights reserved.
+//
+
+#import "cocos2d.h"
+#import "cocos2d-ui.h"
+
+@interface SaloonGameOverScene : CCScene
+
++(id)scene;
+-(void)gotoMainMenu:(id)sender;
+-(void)shootAgain:(id)sender;
+@end
